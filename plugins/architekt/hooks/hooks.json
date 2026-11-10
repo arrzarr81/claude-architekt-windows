@@ -1,0 +1,16 @@
+{
+  "description": "Po starcie, /clear i automatycznym kompaktowaniu wczytuje stan projektu z HANDOFF.md",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/wczytaj_stan.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

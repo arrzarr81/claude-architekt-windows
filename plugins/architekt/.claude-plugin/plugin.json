@@ -1,0 +1,12 @@
+{
+  "name": "architekt",
+  "version": "0.1.0",
+  "description": "Skany dokumentacji budynku → DXF → model IFC → wizualizacje w Blenderze. Polecenia po polsku, skrypty działają w tle. Wersja Windows 10/11.",
+  "author": {
+    "name": "arrzarr81"
+  },
+  "homepage": "https://github.com/arrzarr81/claude-architekt-windows",
+  "repository": "https://github.com/arrzarr81/claude-architekt-windows",
+  "license": "MIT",
+  "keywords": ["architektura", "cad", "dxf", "ifc", "bim", "blender", "wizualizacja", "inwentaryzacja"]
+}
