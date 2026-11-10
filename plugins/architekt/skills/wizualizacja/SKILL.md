@@ -1,6 +1,6 @@
 ---
 name: wizualizacja
-description: Robi wizualizacje budynku w Blenderze bez otwierania okna programu — IFC → OBJ, scena z materiałami, terenem, niebem i słońcem, kamera, render Cycles na GPU (OptiX/CUDA/HIP/Metal); podgląd, potem finał. Używaj, gdy użytkownik mówi „wizualizacja”, „render”, „Blender”, „widok od ulicy”, „z lotu ptaka”, „wersja zimowa”, „złota godzina”.
+description: Robi wizualizacje budynku w Blenderze bez otwierania okna programu — IFC → OBJ, scena z materiałami, terenem, niebem i słońcem, kamera, render Cycles na GPU (OptiX/CUDA/HIP/Metal); podgląd, potem finał. Używaj, gdy użytkownik mówi „wizualizacja”, „render”, „Blender”, „widok od ulicy”, „z lotu ptaka”, „wersja zimowa”, „złota godzina”. / EN — Renders the building in Blender without opening its window — IFC → OBJ, scene with materials, terrain, sky and sun, camera, Cycles render on the GPU (OptiX/CUDA/HIP/Metal); preview first, then final. Use when the user says “visualisation”, “render”, “Blender”, “street view”, “bird's-eye view”, “winter version”, “golden hour”.
 ---
 
 # Wizualizacja w Blenderze

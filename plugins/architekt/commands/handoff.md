@@ -1,5 +1,5 @@
 ---
-description: Handoff przed /clear — zapis stanu sesji do plików projektu (handoff / progress / lekcje / pamięć), commit bez pusha, gotowe do /clear
+description: Handoff przed /clear — zapis stanu sesji do plików projektu (handoff / progress / lekcje / pamięć), commit bez pusha, gotowe do /clear / EN — Handoff before /clear — saves the session state to project files (handoff / progress / lessons / memory), commits without pushing, ready for /clear
 argument-hint: "[opcjonalna notatka do handoffa]"
 ---
 

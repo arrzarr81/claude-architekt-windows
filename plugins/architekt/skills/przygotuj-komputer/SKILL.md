@@ -1,6 +1,6 @@
 ---
 name: przygotuj-komputer
-description: Przygotowuje komputer z Windows do pracy z pluginem architekt — sam instaluje przez winget Pythona 3.12, biblioteki (ezdxf, ifcopenshell, shapely, matplotlib, opencv, pymupdf) i Blendera, sprawdza kartę graficzną i zapisuje ścieżki w %USERPROFILE%\.architekt\config.json. Używaj, gdy użytkownik mówi „przygotuj komputer”, „zainstaluj”, „nie działa Blender / Python”, albo gdy innemu skillowi brakuje config.json.
+description: Przygotowuje komputer z Windows do pracy z pluginem architekt — sam instaluje przez winget Pythona 3.12, biblioteki (ezdxf, ifcopenshell, shapely, matplotlib, opencv, pymupdf) i Blendera, sprawdza kartę graficzną i zapisuje ścieżki w %USERPROFILE%\.architekt\config.json. Używaj, gdy użytkownik mówi „przygotuj komputer”, „zainstaluj”, „nie działa Blender / Python”, albo gdy innemu skillowi brakuje config.json. / EN — Prepares a Windows computer for the architekt plugin — installs via winget Python 3.12, the libraries (ezdxf, ifcopenshell, shapely, matplotlib, opencv, pymupdf) and Blender, checks the graphics card and saves paths to %USERPROFILE%\.architekt\config.json. Use when the user says “set up the computer”, “install”, “Blender / Python does not work”, or when another skill is missing config.json.
 ---
 
 # Przygotowanie komputera (Windows)

@@ -1,6 +1,6 @@
 ---
 name: skan-do-dxf
-description: Przerysowuje rzut, przekrój lub elewację ze skanu (PDF/zdjęcie) do DXF (+ podgląd PNG i PDF A3) skryptem z danymi w cm, porównuje wynik ze skanem i wypisuje różnice wymiarów; także zamiana DXF → DWG. Używaj, gdy użytkownik mówi „przerysuj”, „do DXF”, „do CAD”, „do DWG”, „rzut parteru ze strony…”, „popraw ścianę / okno na rysunku”.
+description: Przerysowuje rzut, przekrój lub elewację ze skanu (PDF/zdjęcie) do DXF (+ podgląd PNG i PDF A3) skryptem z danymi w cm, porównuje wynik ze skanem i wypisuje różnice wymiarów; także zamiana DXF → DWG. Używaj, gdy użytkownik mówi „przerysuj”, „do DXF”, „do CAD”, „do DWG”, „rzut parteru ze strony…”, „popraw ścianę / okno na rysunku”. / EN — Traces a floor plan, section or elevation from a scan (PDF/photo) to DXF (+ PNG preview and A3 PDF) with a script holding dimensions in cm, compares the result with the scan and lists dimension differences; also converts DXF → DWG. Use when the user says “trace”, “redraw”, “to DXF”, “to CAD”, “to DWG”, “ground floor plan from page…”, “fix a wall / window in the drawing”.
 ---
 
 # Skan → DXF

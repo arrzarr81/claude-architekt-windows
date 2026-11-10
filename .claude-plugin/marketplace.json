@@ -5,15 +5,15 @@
     "name": "arrzarr81"
   },
   "metadata": {
-    "description": "Plugin architekt dla Windows 10/11: skany dokumentacji → DXF → IFC → wizualizacje w Blenderze",
-    "version": "0.1.0"
+    "description": "architekt plugin for Windows 10/11: building documentation scans → DXF → IFC → Blender renders / Plugin architekt dla Windows 10/11: skany dokumentacji → DXF → IFC → wizualizacje w Blenderze",
+    "version": "0.1.1"
   },
   "plugins": [
     {
       "name": "architekt",
       "source": "./plugins/architekt",
-      "description": "Skany dokumentacji budynku → DXF → model IFC → wizualizacje w Blenderze (Windows 10/11). Polecenia po polsku.",
-      "version": "0.1.0",
+      "description": "Building documentation scans → DXF → IFC model → Blender renders (Windows 10/11); prompts in Polish or English. / Skany dokumentacji budynku → DXF → model IFC → wizualizacje w Blenderze (Windows 10/11); polecenia po polsku lub po angielsku.",
+      "version": "0.1.1",
       "category": "productivity"
     }
   ]

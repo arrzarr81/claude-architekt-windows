@@ -1,6 +1,6 @@
 ---
 name: model-ifc
-description: Buduje model 3D budynku w IFC4 (ifcopenshell) z danych przerysowanych rzutów — kondygnacje, ściany, otwory, okna, drzwi, stropy, dach — oraz warianty koncepcji (winda, balkony, nowe otwory) jako parametry. Używaj, gdy użytkownik mówi „model IFC”, „model 3D”, „BIM”, „wariant”, „dodaj windę / balkon / okno w modelu”, „policz powierzchnie”.
+description: Buduje model 3D budynku w IFC4 (ifcopenshell) z danych przerysowanych rzutów — kondygnacje, ściany, otwory, okna, drzwi, stropy, dach — oraz warianty koncepcji (winda, balkony, nowe otwory) jako parametry. Używaj, gdy użytkownik mówi „model IFC”, „model 3D”, „BIM”, „wariant”, „dodaj windę / balkon / okno w modelu”, „policz powierzchnie”. / EN — Builds a 3D IFC4 building model (ifcopenshell) from traced floor plans — storeys, walls, openings, windows, doors, slabs, roof — with design variants (lift, balconies, new openings) as parameters. Use when the user says “IFC model”, “3D model”, “BIM”, “variant”, “add a lift / balcony / window to the model”, “calculate floor areas”.
 ---
 
 # Model IFC

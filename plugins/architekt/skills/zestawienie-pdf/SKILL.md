@@ -1,6 +1,6 @@
 ---
 name: zestawienie-pdf
-description: Składa arkusze i wizualizacje w jeden PDF do wydruku lub wysłania (A3 poziomo, strona tytułowa, rzuty, elewacje, rendery z podpisami). Używaj, gdy użytkownik mówi „zestawienie”, „PDF do wydruku”, „pakiet dla inwestora”, „złóż w jeden plik”, „A3”.
+description: Składa arkusze i wizualizacje w jeden PDF do wydruku lub wysłania (A3 poziomo, strona tytułowa, rzuty, elewacje, rendery z podpisami). Używaj, gdy użytkownik mówi „zestawienie”, „PDF do wydruku”, „pakiet dla inwestora”, „złóż w jeden plik”, „A3”. / EN — Assembles sheets and renders into one PDF for printing or sending (A3 landscape, title page, plans, elevations, captioned renders). Use when the user says “sheet set”, “PDF for printing”, “client package”, “combine into one file”, “A3”.
 ---
 
 # Zestawienie PDF

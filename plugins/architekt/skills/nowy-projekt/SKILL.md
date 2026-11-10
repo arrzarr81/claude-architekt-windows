@@ -1,6 +1,6 @@
 ---
 name: nowy-projekt
-description: Zakłada nowy projekt przerysowania dokumentacji budynku w bieżącym folderze — CLAUDE.md z zasadami, foldery, HANDOFF.md, PROGRESS.md, git. Używaj, gdy użytkownik mówi „nowy projekt”, „zaczynamy”, „załóż projekt”, „mam skany domu / teczki”, albo gdy w folderze są skany, a nie ma jeszcze CLAUDE.md z zasadami projektu.
+description: Zakłada nowy projekt przerysowania dokumentacji budynku w bieżącym folderze — CLAUDE.md z zasadami, foldery, HANDOFF.md, PROGRESS.md, git. Używaj, gdy użytkownik mówi „nowy projekt”, „zaczynamy”, „załóż projekt”, „mam skany domu / teczki”, albo gdy w folderze są skany, a nie ma jeszcze CLAUDE.md z zasadami projektu. / EN — Sets up a new project for redrawing building documentation in the current folder — CLAUDE.md with rules, folders, HANDOFF.md, PROGRESS.md, git. Use when the user says “new project”, “let's start”, “set up a project”, “I have scans of the house / permit files”, or when the folder has scans but no project CLAUDE.md yet.
 ---
 
 # Nowy projekt

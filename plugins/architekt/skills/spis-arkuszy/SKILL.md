@@ -1,6 +1,6 @@
 ---
 name: spis-arkuszy
-description: Przegląda skany dokumentacji (PDF, JPG ze zdjęć teczek urzędowych) i robi spis arkuszy z numerem strony, tytułem, skalą i czytelnością. Używaj, gdy użytkownik mówi „spis arkuszy”, „co jest w teczce”, „przejrzyj skany”, „znajdź rzut / przekrój / elewację”, albo przed pierwszym przerysowaniem w nowym projekcie.
+description: Przegląda skany dokumentacji (PDF, JPG ze zdjęć teczek urzędowych) i robi spis arkuszy z numerem strony, tytułem, skalą i czytelnością. Używaj, gdy użytkownik mówi „spis arkuszy”, „co jest w teczce”, „przejrzyj skany”, „znajdź rzut / przekrój / elewację”, albo przed pierwszym przerysowaniem w nowym projekcie. / EN — Reviews documentation scans (PDF, JPG photos of permit files) and lists the sheets with page number, title, scale and legibility. Use when the user says “sheet list”, “what is in the file”, “go through the scans”, “find the plan / section / elevation”, or before the first tracing in a new project.
 ---
 
 # Spis arkuszy ze skanów
