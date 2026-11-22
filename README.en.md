@@ -50,7 +50,9 @@ cd D:\Projects\Project1
 explorer .
 ```
 
-The last command opens the folder in File Explorer: drag your scans (PDF, JPG) into it. Then go back to the PowerShell window, type `claude` and write "new project".
+The last command opens the folder in File Explorer: drag your scans or building design (PDF, JPG) and photos of the property (every elevation, surroundings, neighbours) into it. Then go back to the PowerShell window, type `claude` and write "new project" together with the **property address**.
+
+Claude first gathers site data and only then draws and renders: from the address it downloads the plot boundaries and dimensions, neighbouring plots and buildings from the land register and an orthophoto from the Polish geoportal, asks for a Street View link and any missing photos, and saves it all in a site card (`otoczenie/karta_dzialki.md`). Renders then show the building on its real plot, with its real neighbours.
 
 **Coming back to a project the next day:** open PowerShell, type `cd D:\Projects\Project1`, then `claude`. Claude always works in the folder it was started in and sees only its contents.
 
@@ -58,6 +60,7 @@ The last command opens the folder in File Explorer: drag your scans (PDF, JPG) i
 
 Example requests:
 
+- "New project: Karpacz, ul. Przykładowa 1. Photos and scans are in the folder."
 - "Make a list of the drawings in `folder.pdf`."
 - "Redraw the ground floor plan from page 66 to DXF and compare it with the scan."
 - "Build an IFC model from the plans and the section."
@@ -85,7 +88,8 @@ In Claude Code: `/plugin marketplace update claude-architekt-windows`.
 | Skill | What it does |
 |---|---|
 | `przygotuj-komputer` | installs Python, libraries and Blender (winget), checks the GPU |
-| `nowy-projekt` | folders, `CLAUDE.md` with project rules, `HANDOFF.md`, git |
+| `nowy-projekt` | address, photos and design up front; folders, `CLAUDE.md` with project rules, `HANDOFF.md`, git |
+| `rozpoznanie-dzialki` | from the address: plot boundaries and dimensions, neighbours and buildings from the land register, orthophoto, Street View, site card; no renders without it |
 | `spis-arkuszy` | reviews scans, list of drawings |
 | `skan-do-dxf` | redraws a plan / section / elevation to DXF, compares with the scan, DWG |
 | `model-ifc` | IFC4 model from the plans, design variants |

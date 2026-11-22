@@ -9,6 +9,7 @@ Skrypty w folderze `scripts/` tego skilla: `ifc_do_obj.py` (IFC → OBJ + MTL) i
 
 ## Kroki
 
+0. **Otoczenie:** sprawdź `otoczenie/karta_dzialki.md` (skill `rozpoznanie-dzialki`). Nie ma → najpierw rozpoznanie. Działka, kierunek północy, sąsiednie budynki (obrysy z `otoczenie/dzialka.json`, wysokości ze zdjęć/Street View) i teren w scenie biorą się z karty, nie z wyobraźni. Kadry ustalaj na ortofoto i zdjęciach z karty.
 1. **Eksport:** `"<python>" tools/ifc_do_obj.py model/<nazwa>.ifc render/<nazwa>.obj`.
 2. **Podgląd** (zawsze najpierw): `"<blender>" -b -P tools/blender_render.py -- render/<nazwa>.obj render/podglad_<ujecie>.png 16 800 <azymut_kamery> <wysokosc_kamery_st> <slonce_azymut> <slonce_wysokosc>`. Domyślnie: kamera 215°, 18°; słońce 150°, 35°. Obejrzyj podgląd i pokaż użytkownikowi. Ustal z nim kadr, porę dnia, kierunek.
 3. **Finał** dopiero po akceptacji kadru: 256 próbek, 2400 px → `render/<nazwa>_<ujecie>.png`. Powiedz, ile to potrwa (z czasu podglądu × ok. 16 × (2400/800)²) i uruchom w tle, jeśli > 2 min.
