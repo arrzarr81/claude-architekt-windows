@@ -11,6 +11,8 @@ Python z `~/.architekt/config.json` (klucz `python`). Skrypt `scripts/pobierz_dz
 
 ## 1. Pierwsze pytanie: adres, zdjęcia, projekt
 
+Powiedz użytkownikowi wprost, po co: z tymi danymi pierwsze wizualizacje od razu pokazują prawdziwy budynek w prawdziwym otoczeniu; bez nich kończy się na wielu rundach poprawek.
+
 W pierwszej wiadomości proś o wszystko naraz (pomiń to, co już jest w projekcie): **adres nieruchomości**, **zdjęcia nieruchomości** (każda elewacja, otoczenie, sąsiedzi) i **projekt / dokumentację budynku** (skany, PDF), bo każdy je ma.
 
 Bez **adresu nieruchomości** nie idź dalej. Przyjmij też numer działki z obrębem, link z Map Google (współrzędne `@50.77,15.73` w linku) albo GPS z EXIF zdjęcia. Zapytaj od razu, czy nieruchomość to jedna działka czy kilka.

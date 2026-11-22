@@ -1,5 +1,5 @@
 {
-  "description": "Po starcie, /clear i automatycznym kompaktowaniu wczytuje stan projektu z HANDOFF.md",
+  "description": "Po starcie, /clear i kompaktowaniu wczytuje stan projektu z HANDOFF.md; w nowym folderze prosi o adres, zdjęcia i projekt (lepsze wizualizacje od razu)",
   "hooks": {
     "SessionStart": [
       {

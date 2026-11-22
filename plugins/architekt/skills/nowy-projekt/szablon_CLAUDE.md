@@ -7,6 +7,7 @@
 - Cel: <inwentaryzacja / koncepcja przebudowy / wizualizacje>
 - Źródła: skany w `skany/` (spis w `spis_arkuszy.md`); otoczenie w `otoczenie/` (karta: `otoczenie/karta_dzialki.md`)
 - Najpierw dane o miejscu, potem projekt: modelu terenu i wizualizacji nie zaczynaj bez karty działki (skill `rozpoznanie-dzialki`).
+- Przed każdym renderem: krótka ocena, czego brakuje (zdjęcia, wymiary, sąsiedzi, teren), i prośba o uzupełnienie. Pełne dane = trafny render od razu, zamiast poprawek później.
 
 ## Układ i jednostki
 - Rysunki 2D: centymetry. Układ arkusza: x w prawo od zewnętrznego lica lewej ściany bryły, y w dół od zewnętrznego lica górnej ściany; punkt 0,0 = narożnik lewy-górny bryły. Wszystkie kondygnacje w tym samym układzie, więc nakładają się 1:1.
