@@ -42,7 +42,7 @@ def macierz(x=0.0, y=0.0, z=0.0, kat=0.0):
 def main(wyjscie):
     f = ifcopenshell.api.project.create_file(version="IFC4")
     projekt = ifcopenshell.api.root.create_entity(f, ifc_class="IfcProject", name="Projekt")
-    ifcopenshell.api.unit.assign_unit(f)                       # metry
+    ifcopenshell.api.unit.assign_unit(f, length={"is_metric": True, "raw": "METERS"})   # metry (domyślnie byłyby mm → zła rzędna kondygnacji)
     model = ifcopenshell.api.context.add_context(f, context_type="Model")
     body = ifcopenshell.api.context.add_context(f, context_type="Model", context_identifier="Body",
                                                 target_view="MODEL_VIEW", parent=model)

@@ -134,6 +134,7 @@ W Claude Code: `/plugin marketplace update claude-architekt-windows`.
 | `model-ifc` | model IFC4 z rzutów, warianty koncepcji |
 | `wizualizacja` | IFC → OBJ → Blender (Cycles, OptiX/CUDA/HIP), podgląd i finał |
 | `zestawienie-pdf` | PDF A3 z arkuszy i renderów |
+| `weryfikacja` | sprawdza rysunki, model i rendery przed uznaniem etapu za gotowy: jednostki, rzędne kondygnacji, układ 0,0, materiały, zmiany względem wzorca projektu |
 
 Do tego komenda `/handoff` i hook, który po starcie, `/clear` i kompaktowaniu wczytuje `HANDOFF.md`.
 

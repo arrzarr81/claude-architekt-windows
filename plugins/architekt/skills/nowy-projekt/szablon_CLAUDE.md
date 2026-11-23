@@ -34,6 +34,7 @@
 - Wyniki długich poleceń streszczaj, nie wklejaj całych logów.
 
 ## Sprawdzanie
+- Arkusz, model ani render nie jest gotowy, dopóki skill `weryfikacja` (`sprawdz_projekt.py .`) nie da PASS. Przy FAIL popraw przyczynę w danych skryptu; wzorca (`--zapisz-wzorce`) nie zmieniaj bez zgody użytkownika.
 - Zanim uznasz coś za gotowe, pokaż dowód: podgląd PNG, tabelę różnic wymiarów, liczbę elementów w IFC. Jeśli nie dało się sprawdzić — powiedz to wprost.
 - Elementów niewidocznych na skanie nie zgaduj — wpisz je do UWAGI na arkuszu i do `HANDOFF.md`.
 

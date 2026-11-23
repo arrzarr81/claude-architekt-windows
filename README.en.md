@@ -95,6 +95,7 @@ In Claude Code: `/plugin marketplace update claude-architekt-windows`.
 | `model-ifc` | IFC4 model from the plans, design variants |
 | `wizualizacja` | IFC → OBJ → Blender (Cycles, OptiX/CUDA/HIP), preview and final render |
 | `zestawienie-pdf` | A3 PDF from drawings and renders |
+| `weryfikacja` | checks drawings, model and renders before a step is done: units, storey levels, 0,0 origin, materials, changes against the project baseline |
 
 Plus the `/handoff` command and a hook that loads `HANDOFF.md` on start, after `/clear` and after automatic compaction.
 
